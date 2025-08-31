@@ -1,0 +1,22 @@
+{
+  "blastprocessing": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "blast_processing_full",
+        "stream": true
+      }
+    ],
+    "subtitle": "Blast Processing - Geometry Dash OST"
+  },
+  "clutterfunk": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "clutterfunk_full",
+        "stream": true
+      }
+    ],
+    "subtitle": "Clutterfunk - Geometry Dash OST"
+  }
+}
