@@ -79,6 +79,49 @@ capture_classic_original:
   spawning: {}
   world-blacklist: []
   version: 1.2
+crazy_miner_classic:
+  adjust-spawn: true
+  alias: ''
+  allow-advancement-grant: true
+  allow-flight: false
+  allow-weather: true
+  anchor-respawn: true
+  auto-heal: true
+  auto-load: true
+  bed-respawn: true
+  biome: ''
+  difficulty: normal
+  entry-fee:
+    enabled: false
+    amount: 0.0
+    currency: '@vault-economy'
+  environment: normal
+  gamemode: survival
+  generator: ''
+  hidden: false
+  hunger: true
+  keep-spawn-in-memory: true
+  player-limit: -1
+  portal-form: all
+  pvp: true
+  respawn-world: ''
+  scale: 1.0
+  seed: -1239918868294331688
+  spawn-location:
+    ==: MVSpawnLocation
+    x: 8.42637394079158
+    y: -14.507127728848891
+    z: 11.518010073520474
+    pitch: 90.0
+    yaw: 0.23098755
+  spawning:
+    misc:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+  world-blacklist: []
+  version: 1.2
 discofever_classic:
   adjust-spawn: true
   alias: ''
@@ -158,12 +201,12 @@ football_classic:
     pitch: 89.82254
     yaw: -93.252
   spawning:
-    misc:
+    animal:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    animal:
+    misc:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -200,23 +243,23 @@ lobby:
   seed: -5626434367621861567
   spawn-location:
     ==: MVSpawnLocation
-    x: 73.50952472253215
-    y: 196.0
-    z: 205.47677193039155
-    pitch: 90.0
-    yaw: 4.4703484E-8
+    x: 73.50634188319422
+    y: 222.0
+    z: 178.51984248453866
+    pitch: 89.73381
+    yaw: 1.4355469
   spawning:
-    misc:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
     monster:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
     animal:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    misc:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -302,12 +345,12 @@ pkt_concrete:
     pitch: 0.0
     yaw: 0.0
   spawning:
-    misc:
+    animal:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    animal:
+    misc:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
